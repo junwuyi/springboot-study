@@ -1,0 +1,42 @@
+# \u5B57\u9762\u503C\u8868\u793A\u65B9\u5F0F
+boolean: TRUE       #TRUE,true,True,FALSE,false \uFF0C False \u5747\u53EF
+float: 3.14         #6.8523015e+5 # \u652F\u6301\u79D1\u5B66\u8BA1\u6570\u6CD5
+int: 123            #0b1010_0111_0100_1010_1110 # \u652F\u6301\u4E8C\u8FDB\u5236\u3001\u516B\u8FDB\u5236\u3001\u5341\u516D\u8FDB\u5236
+null: ~             # \u4F7F\u7528 ~ \u8868\u793A null
+string: HelloWorld  # \u5B57\u7B26\u4E32\u53EF\u4EE5\u76F4\u63A5\u4E66\u5199
+string2: "Hello World"  # \u53EF\u4EE5\u4F7F\u7528\u53CC\u5F15\u53F7\u5305\u88F9\u7279\u6B8A\u5B57\u7B26
+date: 2018-02-17        # \u65E5\u671F\u5FC5\u987B\u4F7F\u7528 yyyy-MM-dd \u683C\u5F0F
+datetime: 2018-02-17T15:02:31+08:00   # \u65F6\u95F4\u548C\u65E5\u671F\u4E4B\u95F4\u4F7F\u7528 T \u8FDE\u63A5\uFF0C\u6700\u540E\u4F7F\u7528 + \u4EE3\u8868\u65F6\u533A
+
+
+subject:
+  - Java
+  - \u524D\u7AEF
+  - \u5927\u6570\u636E
+
+enterprise:
+  name: zhangsan
+  age: 16
+
+subject2:
+  - Java
+  - \u524D\u7AEF
+  - \u5927\u6570\u636E
+likes: [\u738B\u8005\u8363\u8000,\u523A\u6FC0\u6218\u573A] # \u6570\u7EC4\u4E66\u5199\u7F29\u7565\u683C\u5F0F
+
+
+users: # \u5BF9\u8C61\u6570\u7EC4\u683C\u5F0F
+  - name: Tom
+    age: 4
+  - name: Jerry
+  age: 5
+users2: # \u5BF9\u8C61\u6570\u7EC4\u683C\u5F0F\u4E8C
+  -
+    name: Tom
+    age: 4
+  -
+    name: Jerry
+    age: 5
+
+# \u5BF9\u8C61\u6570\u7EC4\u7F29\u7565\u683C\u5F0F
+users3: [ { name:Tom , age:4 } , { name:Jerry , age:5 } ]
