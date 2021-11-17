@@ -1,0 +1,15 @@
+# \u5F00\u542F debug \u6A21\u5F0F\uFF0C\u8F93\u51FA\u8C03\u8BD5\u4FE1\u606F\uFF0C\u5E38\u7528\u4E8E\u68C0\u67E5\u7CFB\u7EDF\u8FD0\u884C\u72B6\u51B5
+#debug: true
+
+logging:
+  # \u8BBE\u7F6E\u5206\u7EC4
+  group:
+    # \u81EA\u5B9A\u4E49\u7EC4\u540D\uFF0C\u8BBE\u7F6E\u5F53\u524D\u7EC4\u4E2D\u6240\u5305\u542B\u7684\u5305
+    ebank: com.example.controller,com.example.service,com.example.dao
+    iservice: com.alibaba
+  level:
+    root: info
+    # \u8BBE\u7F6E\u67D0\u4E2A\u5305\u7684\u65E5\u5FD7\u7EA7\u522B
+#    com.example.controller: debug
+    # \u4E3A\u5BF9\u5E94\u7EC4\u8BBE\u7F6E\u65E5\u5FD7\u7EA7\u522B
+    ebank: warn
